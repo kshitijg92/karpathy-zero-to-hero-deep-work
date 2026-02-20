@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(uv:*)",
+      "Bash(nvidia-smi:*)",
+      "Bash(source:*)",
+      "Bash(python -c:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:x.com)",
+      "WebSearch",
+      "WebFetch(domain:twitter-thread.com)"
+    ]
+  }
+}

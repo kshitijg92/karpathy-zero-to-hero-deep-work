@@ -1,0 +1,28 @@
+# Core ML — install first with cu128 index
+# uv pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu128
+torch>=2.10.0
+torchvision>=0.25.0
+torchaudio>=2.10.0
+
+# HuggingFace stack
+transformers>=4.40.0     # https://github.com/huggingface/transformers
+accelerate>=0.29.0       # https://github.com/huggingface/accelerate
+datasets==4.3.0          # pinned: unsloth errors on newer versions
+bitsandbytes>=0.43.0     # https://github.com/bitsandbytes-foundation/bitsandbytes
+peft>=0.10.0
+trl>=0.8.0
+
+# Fine-tuning / QLoRA
+unsloth                  # https://github.com/unslothai/unsloth
+
+# Utilities
+sentencepiece
+tokenizers
+matplotlib
+seaborn
+
+# Profiling notes:
+# - PyTorch profiler is built into torch (torch.profiler) — no extra install needed.
+#   Docs: https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html
+# - Nsight Systems is installed system-wide via NVIDIA's toolkit, not via pip/conda.
+#   Docs: https://docs.nvidia.com/nsight-systems/
