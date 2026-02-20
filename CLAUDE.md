@@ -21,6 +21,12 @@ What I should NOT do:
 - Add content that goes far beyond what the video covers — stay relevant to the topic at hand
 - Over-engineer — keep extra code cells focused and illustrative, not exhaustive
 
+## CRITICAL: Notebook Safety Rules
+
+- **NEVER remove the user's code** — adding to code cells and updating comments is fine, but never delete existing code
+- **NEVER run a script that rewrites the entire notebook file** — always make targeted edits using NotebookEdit on specific cells
+- **Before editing any notebook**, ask the user to save it first — unsaved IDE changes will be lost if the file is written to disk
+
 ## Environment
 
 - **Python:** 3.11

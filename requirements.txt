@@ -20,6 +20,7 @@ sentencepiece
 tokenizers
 matplotlib
 seaborn
+graphviz  # also requires system package: sudo apt-get install graphviz
 
 # Profiling notes:
 # - PyTorch profiler is built into torch (torch.profiler) — no extra install needed.

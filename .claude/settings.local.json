@@ -16,7 +16,10 @@
       "Bash(git push:*)",
       "Bash(ls:*)",
       "Bash(ssh-keygen:*)",
-      "Bash(git -C /home/kshitij/llm_twitter_article_start push -u origin micrograd)"
+      "Bash(git -C /home/kshitij/llm_twitter_article_start push -u origin micrograd)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(git -C /home/kshitij/llm_twitter_article_start log --oneline)",
+      "Bash(git -C /home/kshitij/llm_twitter_article_start show c55a9a4:Karpathy_Zero_to_Hero/working_through_micrograd.ipynb)"
     ]
   }
 }
