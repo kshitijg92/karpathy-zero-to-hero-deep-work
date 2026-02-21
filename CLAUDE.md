@@ -27,6 +27,10 @@ What I should NOT do:
 - **NEVER run a script that rewrites the entire notebook file** — always make targeted edits using NotebookEdit on specific cells
 - **Before editing any notebook**, ask the user to save it first — unsaved IDE changes will be lost if the file is written to disk
 
+## Model Preferences
+
+- When asked to **add context** to a notebook, remind the user to switch to **Opus 4.6** (`claude-opus-4-6`) for higher quality output before proceeding.
+
 ## Environment
 
 - **Python:** 3.11

@@ -22,6 +22,11 @@ matplotlib
 seaborn
 graphviz  # also requires system package: sudo apt-get install graphviz
 
+# Code formatting
+jupyterlab-code-formatter
+black
+isort
+
 # Profiling notes:
 # - PyTorch profiler is built into torch (torch.profiler) — no extra install needed.
 #   Docs: https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html
