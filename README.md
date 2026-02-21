@@ -1,64 +1,55 @@
-# Becoming an ML Engineer
+# Building deep understanding of Neural Networks
 
-Working through the steps in Arman Hezarkhani's guide:
-[The Complete Guide: How to Become an ML Engineer](https://x.com/ArmanHezarkhani/status/2013608521900683765)
+The deep implementation work **Andrej Karpathy's Zero to Hero neural network series** — arguably the best free resource for going from zero to a genuine understanding of how modern deep learning works. Karpathy is a rare force in this field: someone at the frontier of AI research who also cares deeply about making that knowledge accessible to everyone. That he releases material of this quality for free is something worth being genuinely grateful for.
 
 ---
 
-## How to Watch
+## How I'm Learning
+
+### How to Watch
 
 Every video gets **two passes**:
 
 - **First pass:** Watch straight through. No notes, no pausing. Build the mental scaffold.
-- **Second pass:** Notebook + Jupyter open. Pause constantly. Write concepts in your own words. Type all code yourself. Break things. Try things.
+- **Second pass:** Notebook + Jupyter open. Pause constantly. Write concepts in my own words. Type all code yourself. Break things. Try things.
 
-The second pass takes 2-3x longer than the video. That's the point.
+The second pass is currently taking me 6x longer than the video. That's the point.
 
----
+### How I Build the Notebooks
 
-## Phase 1 — Build Intuition (3Blue1Brown)
+**Every line of code is typed by hand.** No copy-pasting from the video or the repo. The friction of typing forces you to actually think about what each line does — and the bugs you inevitably introduce teach you more than the correct code would.
 
-_~10-15 hours_
-
-| #   | Video                                              | Link                                                 |
-| --- | -------------------------------------------------- | ---------------------------------------------------- |
-| 1   | But what is a Neural Network?                      | [Watch](https://www.youtube.com/watch?v=aircAruvnKk) |
-| 2   | Gradient descent, how neural networks learn        | [Watch](https://www.youtube.com/watch?v=IHZwWFHWa-w) |
-| 3   | What is backpropagation really doing?              | [Watch](https://www.youtube.com/watch?v=Ilg3gGewQ5U) |
-| 4   | Backpropagation calculus                           | [Watch](https://www.youtube.com/watch?v=tIeHLnjs5U8) |
-| 5   | Large Language Models explained briefly            | [Watch](https://www.youtube.com/watch?v=LPZh9BOjkQs) |
-| 6   | Transformers, the tech behind LLMs                 | [Watch](https://www.youtube.com/watch?v=wjZofJX0v4M) |
-| 7   | Attention in transformers, step-by-step            | [Watch](https://www.youtube.com/watch?v=eMlx5fFNoYc) |
-| 8   | How might LLMs store facts                         | [Watch](https://www.youtube.com/watch?v=9-Jl0dxWQs8) |
-| +   | How do AI images and videos actually work? (bonus) | [Watch](https://www.youtube.com/watch?v=iv-5mZ_9CPY) |
+The notebooks are also built to read like explanations — as if I were teaching the material to someone else. This isn't just a documentation choice; it's a learning strategy. The act of explaining something clearly forces you to find the gaps in your own understanding and fill them. If I can't write a precise explanation of why something works, I don't actually understand it yet.
 
 ---
 
-## Phase 2 — Build Implementation Skills (Karpathy: Zero to Hero)
+## Citations
 
-_~30-40 hours_
+The core implementation work in this repository follows:
 
-| #   | Video                                                        | Link                                                 |
-| --- | ------------------------------------------------------------ | ---------------------------------------------------- |
-| 1   | Building micrograd                                           | [Watch](https://youtu.be/VMj-3S1tku0)                |
-| 2   | Building makemore                                            | [Watch](https://youtu.be/PaCmpygFfXo)                |
-| 3   | Building makemore Part 2: MLP                                | [Watch](https://youtu.be/TCH_1BHY58I)                |
-| 4   | Building makemore Part 3: Activations & Gradients, BatchNorm | [Watch](https://youtu.be/P6sfmUTpUmc)                |
-| 5   | Building makemore Part 4: Becoming a Backprop Ninja          | [Watch](https://youtu.be/q8SA3rM6ckI)                |
-| 6   | Building makemore Part 5: Building a WaveNet                 | [Watch](https://youtu.be/t3YJ5hKiMQ0)                |
-| 7   | Let's build GPT                                              | [Watch](https://www.youtube.com/watch?v=kCc8FmEb1nY) |
-| 8   | Let's build the GPT Tokenizer                                | [Watch](https://youtu.be/zduSFxRajkE)                |
+> Karpathy, A. (2022). _Neural Networks: Zero to Hero_ [Video series]. YouTube.
+> https://karpathy.ai/zero-to-hero.html
+
+Intuition-building follows:
+
+> Sanderson, G. (3Blue1Brown). (2017–2024). _Neural networks_ [Video series]. YouTube.
+> https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 
 ---
 
-## Phase 3 — Deepen Context (Bonus Videos)
+## License
 
-_~5 hours_
+MIT License
 
-| #   | Video                                       | Link                                                 |
-| --- | ------------------------------------------- | ---------------------------------------------------- |
-| 1   | Intro to Large Language Models (Karpathy)   | [Watch](https://www.youtube.com/watch?v=zjkBMFhNj_g) |
-| 2   | Deep Dive into LLMs like ChatGPT (Karpathy) | [Watch](https://www.youtube.com/watch?v=7xTGNNLPyMI) |
+Copyright (c) 2025 Kshitij
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this repository and associated documentation files, to deal in the repository without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the materials, and to permit persons to whom the repository is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the materials.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+
+> **Note:** The original lecture content, code, and videos are the work of Andrej Karpathy and 3Blue1Brown. This repository contains only personal notes, explanations, and derivative educational work created while following their material. Please refer to their original repositories and channels for the authoritative source.
 
 ---
 
