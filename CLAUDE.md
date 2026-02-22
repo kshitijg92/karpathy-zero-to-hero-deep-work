@@ -10,7 +10,7 @@ The user watches the videos, codes along, and adds their own notes and explanati
 
 When asked to help with a notebook, I should:
 
-- **Expand comments and markdown** into fuller, more precise explanations
+- **Expand comments and markdown** into fuller, more precise explanations — this includes comments inside code cells, not just markdown cells
 - **Add missing context** — why a design decision was made, historical background, connections to other concepts
 - **Improve technical precision** — catch anything vague or imprecise in the user's notes without being pedantic
 - **Add reinforcing content** — extra code cells, visualizations with matplotlib/seaborn, worked examples that deepen understanding
