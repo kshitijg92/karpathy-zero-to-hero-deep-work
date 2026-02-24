@@ -20,6 +20,7 @@ What I should NOT do:
 - Rewrite the user's voice — expand and improve, don't replace
 - Add content that goes far beyond what the video covers — stay relevant to the topic at hand
 - Over-engineer — keep extra code cells focused and illustrative, not exhaustive
+- Put contextual explanations, comparisons, or discussion in code comments — **use markdown cells instead**. Code cell comments should explain *what the code does*, not provide broader context (e.g. comparing to a previous model's performance, discussing trade-offs, or connecting to other concepts). If it's not directly about the code, it belongs in a markdown cell above or below.
 
 ## CRITICAL: Notebook Safety Rules
 
