@@ -20,7 +20,9 @@
       "Bash(sudo apt-get install:*)",
       "Bash(git -C /home/kshitij/llm_twitter_article_start log --oneline)",
       "Bash(git -C /home/kshitij/llm_twitter_article_start show c55a9a4:Karpathy_Zero_to_Hero/working_through_micrograd.ipynb)",
-      "Bash(jupyter kernelspec:*)"
+      "Bash(jupyter kernelspec:*)",
+      "Bash(cd /home/kshitij/llm_twitter_article_start/lesson_3_makemore_mlp && source ~/.venvs/complete_ml/bin/activate && jupyter nbconvert --to notebook --execute makemore_mlp.ipynb --output executed_test.ipynb --ExecutePreprocessor.timeout=600 2>&1)",
+      "mcp__ide__getDiagnostics"
     ]
   }
 }
