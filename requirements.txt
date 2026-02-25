@@ -21,6 +21,9 @@ tokenizers
 matplotlib
 seaborn
 graphviz  # also requires system package: sudo apt-get install graphviz
+optuna
+scikit-learn
+umap-learn
 
 # Code formatting
 jupyterlab-code-formatter
