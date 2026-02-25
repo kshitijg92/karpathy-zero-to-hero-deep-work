@@ -1,8 +1,4 @@
-# Project: Becoming an ML Engineer
-
-Following Arman Hezarkhani's guide: [The Complete Guide: How to Become an ML Engineer](https://x.com/ArmanHezarkhani/status/2013608521900683765)
-
-The curriculum is 3Blue1Brown (intuition) → Karpathy Zero to Hero (implementation).
+# Project: Build deep understanding of neural networks
 
 ## My Role
 
@@ -17,10 +13,11 @@ When asked to help with a notebook, I should:
 - **Connect concepts** — link what's being covered to the broader ML landscape (e.g. how micrograd relates to PyTorch autograd)
 
 What I should NOT do:
+
 - Rewrite the user's voice — expand and improve, don't replace
 - Add content that goes far beyond what the video covers — stay relevant to the topic at hand
 - Over-engineer — keep extra code cells focused and illustrative, not exhaustive
-- Put contextual explanations, comparisons, or discussion in code comments — **use markdown cells instead**. Code cell comments should explain *what the code does*, not provide broader context (e.g. comparing to a previous model's performance, discussing trade-offs, or connecting to other concepts). If it's not directly about the code, it belongs in a markdown cell above or below.
+- Put contextual explanations, comparisons, or discussion in code comments — **use markdown cells instead**. Code cell comments should explain _what the code does_, not provide broader context (e.g. comparing to a previous model's performance, discussing trade-offs, or connecting to other concepts). If it's not directly about the code, it belongs in a markdown cell above or below.
 
 ## CRITICAL: Notebook Safety Rules
 
