@@ -24,6 +24,7 @@ What I should NOT do:
 - **NEVER remove the user's code** — adding to code cells and updating comments is fine, but never delete existing code
 - **NEVER run a script that rewrites the entire notebook file** — always make targeted edits using NotebookEdit on specific cells
 - **Before editing any notebook**, ask the user to save it first — unsaved IDE changes will be lost if the file is written to disk
+- **NotebookEdit `insert` places the new cell AFTER the target `cell_id`** — so to insert a markdown cell *before* a code cell, you must insert after the cell that *precedes* the code cell, NOT after the code cell itself. Always double-check cell ordering when inserting context cells.
 
 ## Model Preferences
 
