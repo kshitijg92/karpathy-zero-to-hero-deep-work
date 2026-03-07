@@ -18,6 +18,7 @@ unsloth                  # https://github.com/unslothai/unsloth
 # Utilities
 sentencepiece
 tokenizers
+tiktoken
 matplotlib
 seaborn
 graphviz  # also requires system package: sudo apt-get install graphviz
