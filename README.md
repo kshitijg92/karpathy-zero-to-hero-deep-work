@@ -47,6 +47,14 @@ Intuition-building follows:
 
 ---
 
+## Viewing the Notebooks
+
+Some notebooks (especially the GPT from scratch notebook) are too large for GitHub to render due to embedded plot outputs. Use **nbviewer** to view them with full outputs:
+
+[**View on nbviewer**](https://nbviewer.org/github/kshitijg92/karpathy-zero-to-hero-deep-work/)
+
+---
+
 ## Environment Setup
 
 **Requirements:** Python 3.11, CUDA 12.8+
